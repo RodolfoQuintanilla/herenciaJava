@@ -3,6 +3,7 @@ public class TestGerente {
         Gerente gerente = new Gerente();
         // Funcionario gerente = new Funcionario();
         gerente.setSalario(6000);
+        gerente.getBonificacion();
         gerente.setClave("roro");
         gerente.setTipo(1);
 

@@ -9,4 +9,9 @@ public class Gerente extends Funcionario {
     public boolean iniciarSesion(String clave) {
         return clave == "roro";
     }
+
+    // Sobre escritura de metodos
+    public double getBonificacion() {
+        return super.getSalario() + (super.getSalario() + super.getBonificacion());
+    }
 }
