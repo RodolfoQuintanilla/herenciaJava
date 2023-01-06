@@ -4,7 +4,9 @@ public class TestFuncionario {
         diego.setNombre("Diego");
         diego.setDocumento("182829");
         diego.setSalario(2000);
+        diego.setTipo(0);
 
         System.out.println(diego.getSalario());
+        System.out.println(diego.getBonificacion());
     }
 }
